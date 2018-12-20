@@ -8,15 +8,40 @@ namespace ChilaReny_Parcial2
 {
     class Program
     {
-        LeerVecto();
-        mayorymeno();
-        Ordenar();
-        ImprimirVecto();
+        LeerVecto(x);
+        mayorymeno(x);
+        Ordenar(x);
+        ImprimirVecto(x);
         Console.ReadKey();
     }
 
 
-        static void Main(string[] args)
+
+    const int MAX = 10;
+    static void Main(string[] args)
+        
+        public static void vectorinicial()
+    {
+
+        int[] x = new int[8];
+        x[0] = 10;
+        x[1] = 10;
+        x[2] = 10;
+        x[3] = 10;
+        x[4] = 10;
+        x[5] = 10;
+        x[6] = 10;
+        x[7] = 10;
+        x[8] = 10;
+        x[9] = 10;
+        x[10] = 10;
+        Console.WriteLine("\nElEmentos del vector\n=====================");
+        for (int i = 0; i < 8; i++)
+        {
+
+            Console.WriteLine("elemento indice {0} --> {1}", (i + 1), x[i]);
+
+        }
 
         //Random
         {
@@ -60,11 +85,8 @@ namespace ChilaReny_Parcial2
                 while (vec[i] < 1 || vec[i] > 1000)
 
                 {
-
                     Console.WriteLine("Ingrese valor {0} del vector", i + 1);
-
                     vec[i] = Int32.Parse(Console.ReadLine());
-
                 }
 
 
@@ -121,5 +143,7 @@ namespace ChilaReny_Parcial2
                 }
             }
         }
+    //EJERCICIO 2
+
     }
 }
