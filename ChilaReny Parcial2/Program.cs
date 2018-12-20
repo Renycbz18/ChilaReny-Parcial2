@@ -8,6 +8,14 @@ namespace ChilaReny_Parcial2
 {
     class Program
     {
+        LeerVecto();
+        mayorymeno();
+        Ordenar();
+        ImprimirVecto();
+        Console.ReadKey();
+    }
+
+
         static void Main(string[] args)
 
         //Random
